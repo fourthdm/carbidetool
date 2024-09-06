@@ -36,6 +36,9 @@ import { DeepslottingComponent } from './tslotcutter/deepslotting/deepslotting.c
 import { WoodrufcutterComponent } from './tslotcutter/woodrufcutter/woodrufcutter.component';
 import { LongreachcutterComponent } from './tslotcutter/longreachcutter/longreachcutter.component';
 import { MissionComponent } from './pages/mission/mission.component';
+import { ValuesComponent } from './pages/values/values.component';
+import { CapabilitiesComponent } from './pages/capabilities/capabilities.component';
+import { StrengthComponent } from './pages/strength/strength.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +74,10 @@ import { MissionComponent } from './pages/mission/mission.component';
     DeepslottingComponent,
     WoodrufcutterComponent,
     LongreachcutterComponent,
-    MissionComponent
+    MissionComponent,
+    ValuesComponent,
+    CapabilitiesComponent,
+    StrengthComponent
   ],
   imports: [
     BrowserModule,

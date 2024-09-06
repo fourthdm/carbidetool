@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-mission',
-  templateUrl: './mission.component.html',
-  styleUrls: ['./mission.component.css']
+  selector: 'app-capabilities',
+  templateUrl: './capabilities.component.html',
+  styleUrls: ['./capabilities.component.css']
 })
-export class MissionComponent {
-
+export class CapabilitiesComponent {
   scrolltop = document.getElementById("scrolltop");
   rootelement = document.documentElement;
 
@@ -16,5 +15,4 @@ export class MissionComponent {
       behavior: 'smooth'
     })
   }
-
 }

@@ -31,6 +31,9 @@ import { NcspotdrillComponent } from './drill/ncspotdrill/ncspotdrill.component'
 import { StepdrillComponent } from './drill/stepdrill/stepdrill.component';
 import { ThroughcoolestdrillComponent } from './drill/throughcoolestdrill/throughcoolestdrill.component';
 import { MissionComponent } from './pages/mission/mission.component';
+import { ValuesComponent } from './pages/values/values.component';
+import { StrengthComponent } from './pages/strength/strength.component';
+import { CapabilitiesComponent } from './pages/capabilities/capabilities.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -40,6 +43,9 @@ const routes: Routes = [
   { path: 'product', component: ProductComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'mission', component: MissionComponent },
+  { path: 'values', component: ValuesComponent },
+  { path: 'strength', component: StrengthComponent },
+  { path: 'capabilities', component: CapabilitiesComponent },
   { path: 'client', component: ClientsComponent },
 
   { path: 'stubdrill', component: StubdrillComponent },
