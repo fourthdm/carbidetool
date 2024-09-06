@@ -1,0 +1,25 @@
+.fa-linkedin {
+    color: #0072b1;
+}
+
+.fa-facebook-f {
+    color: blue;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fas {
+    padding: 2%;
+}
+
+.menu {
+    padding: 5% 5% 1% 5%;
+}
+
+.ds {
+    display: flex;
+}

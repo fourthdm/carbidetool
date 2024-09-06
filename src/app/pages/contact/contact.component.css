@@ -1,0 +1,68 @@
+
+.list {
+    border: 1px solid #777777c6;
+    padding: 3%;
+     color:#f37d40;
+    font-size: larger;
+    text-align: center;
+}
+
+h1 {
+     color:#f37d40;
+}
+
+h3,h6 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+
+.text {
+    padding: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+
+.menu {
+    margin-inline-end: 5px;
+}
+
+.liss {
+    border: 1px solid #777777c6;
+    padding: 2% 1% 2% 1%;
+     color:#f37d40;
+    text-align: center;
+}
+
+.fa-linkedin {
+    color: #0072b1;
+}
+
+.fa-facebook-f {
+    color: blue;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input,textarea{
+    background: none;
+}
+::placeholder{
+    color: gray;
+}
+
+p{
+    color: white;
+    text-align: justify;
+}

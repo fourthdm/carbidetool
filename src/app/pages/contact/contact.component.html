@@ -1,0 +1,152 @@
+<div class="main">
+    <div class="container">
+        <br><br>
+        <div class="row">
+            <h1 style="text-align: center;">CONTACT US</h1>
+            <div class="col-lg-2">
+                <br><br> <br><br>
+                <ul style="list-style: none;">
+                    <li class="active list" [routerLink]="['/home']" (click)="scroll()"><i
+                            class="fas fa-house fa-lg"></i>
+                        Home</li>
+                    <br>
+                    <li class="list" [routerLink]="['/about']" (click)="scroll()"><i
+                            class="fas fa-address-card fa-lg"></i>
+                        About</li>
+                    <br>
+                    <li class="list" [routerLink]="['/service']" (click)="scroll()"> <i
+                            class="fas fa-solid fa-server fa-lg"></i> Service </li>
+                    <br>
+                    <li class="list" [routerLink]="['/product']" (click)="scroll()"> <i class="far fa-folder-open"></i>
+                        Products </li>
+                    <br>
+
+                    <li class="list" [routerLink]="['/client']" (click)="scroll()"> <i
+                            class="fas fa-users-gear fa-lg"></i>
+                        Clients</li>
+                    <br>
+
+
+                    <li class="list" [routerLink]="['/contact']" (click)="scroll()"><i
+                            class="fas fa-solid fa-address-book fa-lg"></i> Contact</li>
+                    <br>
+                    <br>
+                </ul>
+            </div><br>
+
+            <div class="col-lg-10"><br><br>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-sm-12">
+                            <h4 style="text-align: center;">CONTACT FORM</h4> <br>
+                            <form class="row g-3 needs-validation" novalidate>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10">
+                                    <label for="name"> Name</label>
+                                    <input type="text" class="form-control" id="Name" formControlName="Name" value=""
+                                        placeholder="Enter Your Name " required>
+                                    <div class="valid-feedback">
+                                        Your Name
+                                    </div>
+                                </div>
+
+                                <div class="col-md-1"></div>
+                                <div class="col-md-1"></div>
+
+                                <div class="col-md-10">
+                                    <label for="name">Email ID</label>
+                                    <input type="email" class="form-control" id="validationCustom03" id="Email"
+                                        formControlName="Email" placeholder="Enter Your Email Address.." required>
+                                </div>
+
+                                <div class="col-md-1"></div>
+                                <div class="col-md-1"></div>
+
+                                <div class="col-md-10">
+                                    <label for="name"> Contact No.</label>
+                                    <input type="number" class="form-control" id="validationCustom02" value=""
+                                        id="Mobileno" formControlName="Mobileno" placeholder="Enter your Mobile number"
+                                        required>
+                                    <div class="valid-feedback">
+                                        Your number
+                                    </div>
+                                </div>
+
+                                <div class="col-md-1"></div>
+                                <div class="col-md-1"></div>
+
+                                <div class="col-md-10 ">
+                                    <label for="name">Message</label>
+                                    <textarea type="email" class="form-control" id="validationCustom03" id="Message"
+                                        formControlName="Message" placeholder="Message" required></textarea>
+                                </div>
+
+                                <div class="col-md-1"></div>
+                                <div class="col-md-1"></div>
+
+                                <div class="col-md-10" style="text-align: center;">
+                                    <button class="btn btn-success" style="color: white;" type="submit">
+                                        Submit Now</button> <br> <br>
+                                </div>
+
+                                <br><br>
+                            </form>
+                        </div>
+
+                        <div class="col-lg-4"> <br>
+                            <div class="row ">
+                                <div class="col-lg-12">
+                                    <div class="">
+                                        <div class="card-body">
+                                            <h5>Pune</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Kharadi, Pune
+                                            </p>
+                                        </div>
+                                    </div> <br>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="">
+                                        <div class="card-body">
+                                            <h5>Pune</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Kharadi, Pune
+                                            </p>
+                                        </div>
+                                    </div><br>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="">
+                                        <div class="card-body">
+                                            <h5>Pune</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Kharadi, Pune
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="h4" style="text-align: start;">CONTACT DETAILS :</h4> <br>
+                <div class="row" style="padding-inline-start: 3%;">
+
+                    <div class="col-lg-4 col-md-6">
+                        <h4>Contact</h4>
+                        <p><i class="fa fa-phone"></i> +91-9999955555</p>
+                        <p><i class="fa-solid fa-envelope"></i> &#64;gmail.com</p>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-12">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15129.972951470803!2d73.9433318!3d18.5517889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3c807f14763%3A0x366ed37e0ce2f13e!2sSNOWDROP!5e0!3m2!1sen!2sin!4v1684739542707!5m2!1sen!2sin"
+                            width="100%" height="100" style="border:0;" allowfullscreen=""
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

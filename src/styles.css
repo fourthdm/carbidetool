@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('/assets/video.gif');
+    background-color: rgba(0, 0, 0, 0.779);
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#f37d40;
+}

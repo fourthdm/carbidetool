@@ -1,0 +1,614 @@
+<div class="main">
+    <div class="container">
+        <br><br>
+        <div class="row">
+            <h1 style="text-align: center;">Products</h1>
+            <div class="col-lg-2">
+                <br><br> <br><br>
+                <ul style="list-style: none;">
+                    <li class="active list" [routerLink]="['/home']" (click)="scroll()"><i
+                            class="fas fa-house fa-lg"></i>
+                        Home</li>
+                    <br>
+                    <li class="list" [routerLink]="['/about']" (click)="scroll()"><i
+                            class="fas fa-address-card fa-lg"></i>
+                        About</li>
+                    <br>
+                    <li class="list" [routerLink]="['/service']" (click)="scroll()"> <i
+                            class="fas fa-solid fa-server fa-lg"></i> Service </li>
+                    <br>
+                    <li class="list" [routerLink]="['/product']" (click)="scroll()"> <i class="far fa-folder-open"></i>
+                        Product </li>
+                    <br>
+
+                    <li class="list" [routerLink]="['/client']" (click)="scroll()"> <i
+                            class="fas fa-users-gear fa-lg"></i>
+                        Clients</li>
+                    <br>
+
+                    <li class="list" [routerLink]="['/contact']" (click)="scroll()"><i
+                            class="fas fa-solid fa-address-book fa-lg"></i> Contact</li>
+                    <br>
+                    <br>
+                </ul>
+            </div><br>
+
+            <div class="col-lg-10"><br><br>
+                <div class="container">
+                    <!-- Pills navs -->
+                    <ul class="nav nav-pills mb-3" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="ex1-tab-1" data-mdb-toggle="pill" href="#ex1-pills-1"
+                                role="tab" type="button" aria-controls="ex1-pills-1" aria-selected="true"><b>All
+                                    Products</b></a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="ex1-tab-2" data-mdb-toggle="pill" href="#ex1-pills-2" role="tab"
+                                type="button" aria-controls="ex1-pills-2" aria-selected="false"><b>Drill</b></a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="ex1-tab-3" data-mdb-toggle="pill" href="#ex1-pills-3" role="tab"
+                                type="button" aria-controls="ex1-pills-3" aria-selected="false"><b>Endmill</b></a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="ex1-tab-4" data-mdb-toggle="pill" href="#ex1-pills-4" role="tab"
+                                type="button" aria-controls="ex1-pills-4" aria-selected="false"><b>Reamer</b></a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="ex1-tab-5" data-mdb-toggle="pill" href="#ex1-pills-5" role="tab"
+                                aria-controls="ex1-pills-5" aria-selected="false"><b>T-slot Cutter</b></a>
+                        </li>
+                    </ul>
+                    <hr style="color: white;">
+                    <!-- Pills navs -->
+                    <br>
+                    <!-- Pills content -->
+                    <div class="tab-content" id="ex1-content">
+                        <div class="tab-pane fade show active" id="ex1-pills-1" role="tabpanel"
+                            aria-labelledby="ex1-tab-1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/stubdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/stub-drill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Stub Drill</h6>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/jobberdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/jobber-drills.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Jobber Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/extralongdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/extra-long-drill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Extra Long Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/centerdrilltypeA']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/centre-drill-type-a.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Centre Drill Type A</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/centerdrilltypeB']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/centre-drill-type-b.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Centre Drill (Type B)</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/stadardendmill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/standard-endmill.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Standard Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/extralongendmill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/extra-long-series-endmill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Extra-long Series Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/straight-flute.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Straight Flute</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/right-hand-spiral-flute-regular-length.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Right Hand Spiral Flute - Regular Length</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/narrowslotting']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/narrow-slotting.png"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Narrow Slotting</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c"  [routerLink]="['/deepslotting']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/deep-slotting.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Deep Slotting</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <br>
+                                </div>
+                                <br>
+                            </div>
+                            <br>
+                        </div>
+
+                        <!-- Drill projrcts -->
+                        <div class="tab-pane fade" id="ex1-pills-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/stubdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/stub-drill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Stub Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/jobberdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/jobber-drills.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Jobber Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/extralongdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/extra-long-drill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Extra Long Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/centerdrilltypeA']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/centre-drill-type-a.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Centre Drill Type A</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/centerdrilltypeB']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/centre-drill-type-b.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Centre Drill (Type B)</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/ncspotdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/nc-spot-drill.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">NC Spot Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/throughcoolestdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/through-coolent-drill.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Through Coolent Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/burnshingdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/burnishing-drill.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Burnishing Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/stepdrill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/step-drill.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Step Drill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+
+                                </div><br>
+                                <br>
+                            </div>
+                            <br>
+                        </div>
+                        <!-- Drill project end -->
+
+                        <!-- Endmill project start -->
+                        <div class="tab-pane fade" id="ex1-pills-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/stadardendmill']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/standard-endmill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Standard Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/extra-long-series-endmill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Extra-long Series Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/micro-fine-solid-carbide-endmill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Micro Fine Solid carbide Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/rougher-endmill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Rougher Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/ball-nose-endmill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Ball Nose Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/step-endmill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Step Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/radius-endmill-bullnose.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Radius Endmill/Bullnose</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/taper-endmill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Taper Endmill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/holemill.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Holemill</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/Endmill2']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/through-coolent-endmills1.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Through Coolent Endmills</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <br>
+                            </div>
+                        </div>
+                        <!-- Endmill project end -->
+
+
+                        <!-- luxury project start -->
+                        <div class="tab-pane fade" id="ex1-pills-4" role="tabpanel" aria-labelledby="ex1-tab-4">
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/straight-flute.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Straight Flute</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/right-hand-spiral-flute-regular-length.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Right Hand Spiral Flute - Regular Length</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/left-hand-spiral-flute-regular-length.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Left Hand Spiral Flute - Regular Length</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/right-hand-spiral-flute-long-length.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Right Hand Spiral Flute - Long Length</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/left-hand-spiral-flute-long-length.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Left Hand Spiral Flute - Long Length</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/right-hand-spiral-flute-regular-lengths.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Right Hand Spiral Flute - Regular Length(Non Through
+                                                    Coolent)</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/left-hand-spiral-flute--regular-length.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Left Hand Spiral Flute - Regular Length(Non Through
+                                                    Coolent)</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/right-hand-spiral-flute-long-lengths.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Right Hand Spiral Flute - Long Length(Non Through
+                                                    Coolent) </h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/strightflute']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/left-hand-spiral-flute-long-lengths.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Left Hand Spiral Flute - Long Length(Non Through
+                                                    Coolent)</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                </div>
+                                <br>
+
+                                <br>
+                            </div>
+                        </div>
+                        <!-- luxury project end -->
+
+                        <!-- T-slot Cutter project start -->
+                        <div class="tab-pane fade" id="ex1-pills-5" role="tabpanel" aria-labelledby="ex1-tab-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/narrowslotting']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/narrow-slotting.png"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Narrow Slotting</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/deepslotting']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/deep-slotting.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Deep Slotting</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4">
+                                        <div class="card c"[routerLink]="['/woodruffcutter']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/woodruff-cutter.jpg"
+                                                alt="">
+                                            <div class="overlay">
+                                                <h6 class="text">Woodruff cutter</h6>
+                                            </div>
+                                        </div>
+                                    </div><br>
+
+                                    <div class="col-md-4">
+                                        <div class="card c" [routerLink]="['/longreachcutter']">
+                                            <img src="https://www.jdcuttingtools.com/images/product/long-reach-t-slot-cutter.jpg"
+                                                alt="">
+
+                                            <div class="overlay">
+                                                <h6 class="text">Long Reach T-slot Cutter</h6>
+                                            </div>
+                                        </div> <br>
+                                    </div>
+                                    <br>
+                                </div>
+                                <br>
+
+                                <br>
+                            </div>
+                        </div>
+                        <!-- T-slot Cutter project end -->
+
+
+
+                        <br>
+                    </div>
+                    <!-- Pills content -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
